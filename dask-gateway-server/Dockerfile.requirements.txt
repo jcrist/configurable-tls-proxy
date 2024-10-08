@@ -18,7 +18,7 @@ cffi==1.16.0
     # via cryptography
 colorlog==6.8.2
     # via dask-gateway-server
-cryptography==42.0.5
+cryptography==42.0.7
     # via dask-gateway-server
 dask-gateway-server @ file:///opt/dask-gateway-server
     # via -r Dockerfile.requirements.in
@@ -44,7 +44,7 @@ six==1.16.0
     # via
     #   kubernetes-asyncio
     #   python-dateutil
-traitlets==5.14.2
+traitlets==5.14.3
     # via dask-gateway-server
 urllib3==2.2.1
     # via kubernetes-asyncio

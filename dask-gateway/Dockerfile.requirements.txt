@@ -4,59 +4,16 @@
 #
 #    Use "Run workflow" button at https://github.com/dask/dask-gateway/actions/workflows/refreeze-dockerfile-requirements-txt.yaml
 #
-aiohttp==3.9.5
-    # via dask-gateway
-aiosignal==1.3.1
-    # via aiohttp
-attrs==23.2.0
-    # via aiohttp
 bokeh==3.4.1
     # via -r Dockerfile.requirements.in
-click==8.1.7
-    # via
-    #   dask
-    #   dask-gateway
-    #   distributed
-cloudpickle==3.0.0
-    # via
-    #   dask
-    #   distributed
 contourpy==1.2.1
     # via bokeh
-dask==2024.4.1
-    # via
-    #   dask-gateway
-    #   distributed
-dask-gateway @ file:///opt/dask-gateway
+dask-gateway @ file:///home/dependabot/dependabot-updater/tmp/20240506-7-e6bnjn/dependabot_20240506-7-kzk9ya
     # via -r Dockerfile.requirements.in
-distributed==2024.4.1
-    # via dask-gateway
-frozenlist==1.4.1
-    # via
-    #   aiohttp
-    #   aiosignal
-fsspec==2024.3.1
-    # via dask
-idna==3.7
-    # via yarl
-importlib-metadata==7.1.0
-    # via dask
-jinja2==3.1.3
-    # via
-    #   bokeh
-    #   distributed
-locket==1.0.0
-    # via
-    #   distributed
-    #   partd
+jinja2==3.1.4
+    # via bokeh
 markupsafe==2.1.5
     # via jinja2
-msgpack==1.0.8
-    # via distributed
-multidict==6.0.5
-    # via
-    #   aiohttp
-    #   yarl
 numpy==1.26.4
     # via
     #   -r Dockerfile.requirements.in
@@ -64,53 +21,22 @@ numpy==1.26.4
     #   contourpy
     #   pandas
 packaging==24.0
-    # via
-    #   bokeh
-    #   dask
-    #   distributed
+    # via bokeh
 pandas==2.2.2
     # via bokeh
-partd==1.4.1
-    # via dask
 pillow==10.3.0
     # via bokeh
-psutil==5.9.8
-    # via distributed
 python-dateutil==2.9.0.post0
     # via pandas
 pytz==2024.1
     # via pandas
 pyyaml==6.0.1
-    # via
-    #   bokeh
-    #   dask
-    #   dask-gateway
-    #   distributed
+    # via bokeh
 six==1.16.0
     # via python-dateutil
-sortedcontainers==2.4.0
-    # via distributed
-tblib==3.0.0
-    # via distributed
-toolz==0.12.1
-    # via
-    #   dask
-    #   distributed
-    #   partd
 tornado==6.4
-    # via
-    #   bokeh
-    #   dask-gateway
-    #   distributed
+    # via bokeh
 tzdata==2024.1
     # via pandas
-urllib3==2.2.1
-    # via distributed
 xyzservices==2024.4.0
     # via bokeh
-yarl==1.9.4
-    # via aiohttp
-zict==3.0.0
-    # via distributed
-zipp==3.18.1
-    # via importlib-metadata
